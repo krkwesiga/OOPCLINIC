@@ -10,7 +10,7 @@ public class FrmSendMessage {
 		this.message = messagebyte;
 		System.out.println("Encrypted Message: "+message);
 
-		FrmDecryptMessage decMsg = new FrmDecryptMessage();
+		FrmCryptMessage decMsg = new FrmCryptMessage();
 		decMsg.Decrypt(message);
 	}
 

@@ -9,7 +9,7 @@ public class FrmMessage {
 		try{
 			
 			Scanner objScan = new  Scanner(System.in);
-			FrmEncryptMessage msgEncryptObj = new FrmEncryptMessage();
+			FrmCryptMessage msgEncryptObj = new FrmCryptMessage();
 			
 			System.out.println("Enter Message");
 			System.out.println("============================");
